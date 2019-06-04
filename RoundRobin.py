@@ -6,9 +6,8 @@ class RoundRobin:
   # overriding default __init__
   def __init__(self, listOfStrings):
     '''
-    This will make a "copy" of the list, known as: names.
+    This will make a shallow copy of the list, known as: names.
     '''
-    self.names = list(listOfStrings)
     self.copiedList = list(listOfStrings)
     self.name_list = list(listOfStrings)
 
