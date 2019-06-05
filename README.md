@@ -9,4 +9,6 @@ This class is perfect for these purposes:
  
 If you have N items in your list. This means there will be N - 1 rounds, and each round will have N / 2 matches.
 
+The method, generate_round, will produce a distinct and unique list of tuples for each time the generate_round method is called. This method will return a message letting you know when you have exhausted the maximum number of unique team pairings.
+
 Please note: if there is an odd number of names in your list, then the program will append 'bye' as a placeholder to achieve an even number of names in the list.
