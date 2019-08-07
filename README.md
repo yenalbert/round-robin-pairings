@@ -7,7 +7,7 @@ This class is perfect for these purposes:
  - Or you are organizing a sports tournament, and you need to schedule games such that each participant plays each other participant exactly once.
  - Or you are teaching a writing class, and you'd like each student to review each other student's draft exactly once during the semester.
  
-If you have N items in your list. This means there will be N - 1 rounds, and each round will have N / 2 matches.
+If you have N items in your list, this means there will be N - 1 rounds, and each round will have N / 2 matches.
 
 The method, generate_round, will produce a distinct and unique list of tuples for each time the generate_round method is called. This method will return a message letting you know when you have exhausted the maximum number of unique team pairings.
 
