@@ -1,6 +1,8 @@
 # round-robin-pairings
 
-The RoundRobin class will return a list of tuples (pairs of names) to represent the different teams when given a list of names. The parameter for the constructor will be a list of names. 
+The RoundRobin class will return a list of tuples (pairs of names) to represent distinct and unique teams when given a list of names. 
+
+The parameter for the constructor will be a list of names. 
 
 This class is perfect for these purposes:
  - Say you are organizing an academic conference, and you want to schedule each attendee to have a one-on-one meeting with each other attendee.
